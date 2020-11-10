@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cc.mapper.HeadContentMapper" >
+
+    <insert id="insert" parameterType="com.cc.bean.HeadContent">
+         insert into t_headcontent (index_number,category,issuing_agency,publish_date,h_name,text_number,first_words)
+         values (#{index_number},#{category},#{issuing_agency},#{publish_date},#{h_name},#{text_number},#{first_words})
+    </insert>
+
+</mapper>
