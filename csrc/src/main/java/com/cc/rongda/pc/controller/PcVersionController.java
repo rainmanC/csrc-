@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author chencheng
  * @ClassName: PcVersionController
- * @Description: 系统版本管理控制层
+ * @Description: 系统版本管理控制层 s
  * @date 2020年11月27日
  */
 @RestController
