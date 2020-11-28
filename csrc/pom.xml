@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+             <!--新增注释-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
